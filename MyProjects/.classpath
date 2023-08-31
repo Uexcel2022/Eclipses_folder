@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src">
+		<attributes>
+			<attribute name="org.eclipse.jdt.launching.CLASSPATH_ATTR_LIBRARY_PATH_ENTRY" value="C:/Program Files/Java/jdk-20.0.1"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/sqlite"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/mariadb"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Sql"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/JRE">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
