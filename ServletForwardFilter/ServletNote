@@ -1,0 +1,15 @@
+Filter Mapping and chain
+wild cad (/*) uri-pattern is resolved first
+and then filter with servlet name mapping
+
+Annotation filter order of execution is based on class name in alphabetically.
+The other can not be defined using annotation
+However we can switch the other in the xml how?
+it is the first, first to be executed
+use annotation: @WebFilter(name="fiterName") at the filter class level
+in xml:
+
+ <filter-mapping>
+<filter-name>filterName</filter-name>
+<url-pattern>/*</url-pattern>
+</filter-mapping>

@@ -43,7 +43,7 @@ tr:nth-child(even) {
 			<th>Gender</th>
 			<th>Phone</th>
 		</tr>
-		<c:catch></c:catch>
+	
 		<c:forEach items="${obj}" var="data" varStatus="status">
 		<%-- i didnt's add this ${status.index}  --%>
 			<tr>
