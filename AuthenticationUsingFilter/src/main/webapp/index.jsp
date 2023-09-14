@@ -27,7 +27,7 @@ body {
 	<form action="login" method="post">
 		<fieldset>
 			<c:if test="${param.error }">
-				<h5>
+				<h5 style="color:red">
 					<c:out value="Invalid username/password!"></c:out>
 				</h5>
 			</c:if>
