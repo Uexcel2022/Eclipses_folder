@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 import com.uexcel.model.CustomerProfile;
 
-
+//When used java config you need to add dependency: javax servlet Api
 
 @Controller
 @RequestMapping(value = { "/", "customer" })

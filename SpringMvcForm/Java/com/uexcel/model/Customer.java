@@ -4,6 +4,7 @@ public class Customer {
 	private String firstName;
 	private String lastName;
 	private Phone phone;
+	private Country country;
 
 	public String getFirstName() {
 		return firstName;
@@ -29,10 +30,24 @@ public class Customer {
 	public void setPhone(Phone phone) {
 		this.phone = phone;
 	}
+	
+	
+
+	public Country getCountry() {
+		return country;
+	}
+
+	public void setCountry(Country country) {
+		this.country = country;
+	}
 
 	@Override
 	public String toString() {
-		return "Customer [firstName=" + firstName + ", lastName=" + lastName + ", phone=" + phone + "]";
+		return "Customer [firstName=" + firstName + ", lastName=" + lastName + ", phone=" + phone + ", country="
+				+ country + "]";
 	}
 
+	
+	
+	
 }

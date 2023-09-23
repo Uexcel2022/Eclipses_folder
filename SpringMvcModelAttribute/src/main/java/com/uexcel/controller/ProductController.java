@@ -24,7 +24,7 @@ public class ProductController {
 	@GetMapping("/details")
 	public String getProductDetails(@ModelAttribute("prod") Product product, Model model) {
 		System.out.println(model.asMap().get("categoryList"));
-		return "showproduct";
+		return "showProduct";
 	}
 
 	@ModelAttribute("categoryList") // information in this method can be retrieved in every method in the class from Model object.

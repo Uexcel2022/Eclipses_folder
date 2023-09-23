@@ -8,6 +8,20 @@ public class Phone {
 	public String getAreacode() {
 		return areacode;
 	}
+  
+	
+	public Phone() {
+	
+	}
+
+
+	public Phone(String areacode, String prefix, String number) {
+		super();
+		this.areacode = areacode;
+		this.prefix = prefix;
+		this.number = number;
+	}
+
 
 	public void setAreacode(String areacode) {
 		this.areacode = areacode;
